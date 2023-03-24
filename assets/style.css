@@ -1,0 +1,64 @@
+        .body {
+            background-image: url(/assets/images/pic.png);
+            background-repeat: no-repeat;
+            background-position-x: right;
+            background-position-y: center;
+            background-size: 796.34px 724.31px;
+            margin: 50px;
+            width: 1240px;
+            height: 900px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            width: 542px;
+            height: 450px;
+            justify-content: space-between;
+        }
+
+        .main__bg {
+            font-family: 'Intro', Times, serif;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 72px;
+            text-transform: uppercase;
+        }
+
+        .main__prg {
+            font-family: 'Roboto Slab', Times, serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 32px;
+        }
+
+        .main__button {
+            padding-top: 10px;
+        }
+
+        .footer {
+            width: 700px;
+        }
+
+        .footer__list {
+            margin-top: 250px;
+            list-style-type: none;
+        }
+
+        .footer__item {
+            display: inline;
+            padding-right: 50px;
+        }
+
+        .footer__link {
+            text-decoration: none;
+            font-family: 'Roboto Slab', Times, serif;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 32px;
+        }
